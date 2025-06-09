@@ -13,8 +13,8 @@ const blocks = [
     currentIndex = (currentIndex + 1) % blocks.length;
   }
 
-  showNextBlock(); // показать первый сразу
-  setInterval(showNextBlock, 500); // менять каждые 0.5 сек
+  showNextBlock(); 
+  setInterval(showNextBlock, 500); 
 
 
 
